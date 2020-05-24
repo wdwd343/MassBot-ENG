@@ -1,3 +1,3 @@
 Discord: 봉순#4888
 
-*외국인이 제작한 소스를 수정하여 최종 완성된 .py 파일입니다.
+*https://youtube.com/c/봉순bs
