@@ -12,7 +12,7 @@ client = discord.Client()
 @client.event
 async def on_ready():
     print("Your Bot is working.")
-    game = discord.Game('★★★Enter Game Name!!!!!!!★★★')
+    game = discord.Game('ℭ𝔞𝔯𝔱𝔢𝔩 ')
     await client.change_presence(status=discord.Status.online, activity=game)
 
 #Send dm to "/dm {message}"
@@ -26,12 +26,12 @@ async def on_message(message):
                 try:
                     msg = message.content[4:]
                     if message.author.id == ★★★Enter Your Discord ID★★★:
-                        embed = discord.Embed(colour=0x1DDB16, timestamp=message.created_at, title="★★Top Title★★")
-                        embed.add_field(name="★★Title★★", value=msg, inline=True)
-                        embed.set_footer(text=f"discord.gg/★★Invite Code★★")
+                        embed = discord.Embed(colour=0x1DDB16, timestamp=message.created_at, title="ℭ𝔞𝔯𝔱𝔢𝔩 공지봇")
+                        embed.add_field(name="필독", value=msg, inline=True)
+                        embed.set_footer(text=f"discord.gg/JZQqs2K")
                         await i.send(embed=embed)
                 except:
                     pass
 
 
-client.run('★★Bot Token★★')
+client.run('NzE3MTMzNDE4MTM5MjIyMDM3.XtV4oQ.MtLvNAiDecFLlLXRgs91mwYulac')
